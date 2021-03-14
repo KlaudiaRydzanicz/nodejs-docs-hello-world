@@ -1,4 +1,4 @@
-# Node.js Express Web App to Linux on Azure
+# Node.js Express Web App to Linux on Azur
 # Build a Node.js Express app and deploy it to Azure as a Linux web app.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
@@ -9,7 +9,7 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '22b7afe7-3ff2-4ba3-9b0a-e88e1a313dd5'
+  azureSubscription: 'Pay-As-You-Go(fa5640b8-e7e9-4f63-abab-d80088cb3338)'
 
   # Web app name
   webAppName: 'nodejs-cicd-24'
